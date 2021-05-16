@@ -1,0 +1,44 @@
+.wrapper{
+    margin: 5px;
+}
+
+body{
+    background-image: linear-gradient(to bottom, rgb(67, 67, 141), white);
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(90, 90, 90),  rgb(90, 90, 90), gray, whitesmoke);
+    text-align: right;
+}
+
+#main{
+    margin-top:125px;
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
+
+#submissions{
+    border: 5px dashed teal;
+    height: 300px;
+}
+
+.panels{
+    padding-left: 1em;
+    background-image: linear-gradient(to right, gray, gray, teal);
+    height: 300px;
+}
+
+h4{
+    font-style: italic;
+}
+
+footer{
+    font-size: smaller;
+    font-style: italic;
+    font-weight: bold;
+}
